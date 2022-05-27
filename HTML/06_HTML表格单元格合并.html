@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML表格单元格合并</title>
+    </head>
+    <body>
+        <table align="center" border="1px" width="300px" height="200px">
+            <tr align="center">
+                <td>单元格</td>
+                <td>单元格</td>
+                <!--将后面的单元格注释掉，
+                在前面的单元格上使用rowspan属性进行行合并
+                合并几个写几个
+                -->
+                <td rowspan="2">单元格</td>
+            </tr>
+            <tr>
+                <td>单元格</td>
+                <td>单元格</td>
+                <!--
+                <td>单元格</td>
+                -->
+            </tr>
+            <tr align="center">
+                <td colspan="2">单元格</td>
+                <!--
+                <td>单元格</td>
+                -->
+                <td>单元格</td>
+            </tr>
+        </table>
+    </body>
+</html>
